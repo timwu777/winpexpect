@@ -1,0 +1,18 @@
+This is WinPexpect, a version of Pexpect that works on Unix and Windows.
+
+Version 1.x of WinPexpect was a port to Windows of Noah Spurrier's excellent
+pexpect project [1]_. It included a modified copy of pexpect.
+
+Version 2.x of WinpExpect is a rewrite that does not use any of the pexpect
+code anymore, but it still tries to implement the pexpect interface.
+
+Installation via setuptools::
+
+  $ python setup.py install
+
+To run the tests, you need Nose [2]_. To run them, use::
+
+  $ python setup.py test
+
+.. [1] http://www.noah.org/wiki/pexpect
+.. [2] http://nose.readthedocs.org/en/latest/

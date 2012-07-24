@@ -1,0 +1,9 @@
+*.pyc
+build/
+dist/
+trash/
+*.egg-info
+.*.swp
+.*.swo
+header
+*~
